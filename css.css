@@ -1,0 +1,165 @@
+/* css.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://www.creativefabrica.com/wp-content/uploads/2022/04/23/Simple-white-abstract-background-Graphics-29480226-1.jpg);
+    background-size: 100%;
+    color: #ffea00;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1601fe;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+ border: solid black 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+#atividades ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#atividades ul li {
+    margin: 10px;
+    background-color: #1500ff;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 5px;
+}
+
+#atividades ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#atividades ul li a:hover {
+    color: #ffea00;
+}
+
+#atividade-detalhe {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    border-radius: 5px;
+    display: none;
+}
+
+
+/* Estilizar o botão de recarregar */
+#reloadButton {
+    margin-left: 1000px;
+    background-color: #3498db; /* Cor de fundo azul */
+    color: #ffffff;            /* Cor do texto branca */
+    border: none;              /* Remover borda padrão */
+    padding: 10px 20px;        /* Espaçamento interno */
+    font-size: 16px;           /* Tamanho da fonte */
+    border-radius: 5px;       /* Bordas arredondadas */
+    cursor: pointer;           /* Cursor como ponteiro ao passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave para cor de fundo */
+}
+
+/* Estilo para quando o botão é focado */
+#reloadButton:focus {
+    outline: none;             /* Remover contorno padrão ao focar */
+}
+
+/* Estilo para quando o botão é clicado ou pressionado */
+#reloadButton:active {
+    background-color: #2980b9; /* Cor de fundo quando pressionado */
+}
+/* Estilo para a seção 'Sobre' */
+#sobre {
+    text-align: center; /* Centralizar o texto na seção */
+    margin: 20px auto; /* Adicionar margem superior e inferior */
+    padding: 20px;     /* Adicionar preenchimento */
+    background-color: #ecf0f1; /* Cor de fundo suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    height: 400px;
+  
+}
+
+/* Estilo para o contêiner dos integrantes */
+.integrantes-container {
+    display: inline-block; /* Faz o contêiner centralizar horizontalmente */
+    text-align: left;      /* Alinhar o texto à esquerda dentro do contêiner */
+    background-color: #ffffff; /* Cor de fundo do contêiner */
+    border: solid #3498db 2px; /* Borda azul */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+    height: 300px;
+    width: 1000px;
+}
+
+/* Estilo para a lista de integrantes */
+.integrantes-container ul {
+    list-style: none; /* Remover marcadores da lista */
+    padding: 0; /* Remover preenchimento */
+    margin: 0; /* Remover margem */
+}
+
+.integrantes-container ul li {
+    font-size: 20px; /* Tamanho da fonte dos itens da lista */
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens */
+  
+}
+
+/* Adicionar uma pequena margem inferior ao parágrafo */
+.integrantes-container p {
+    font-size: 25px; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    font-weight: bold; /* Negrito */
+    
+}
+
+
+#ceca{
+width: 300px;
+height: 280px;
+margin-left: 600px;
+margin-top: -225px;
+}
